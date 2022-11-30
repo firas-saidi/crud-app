@@ -2,7 +2,6 @@ import { Component } from "react";
 import AddItem from "./components/AddItem/AddItem";
 import TodoItems from "./components/TodoItems/TodoItems";
 import "./App.css"
-import T from './T'
 
 
 
@@ -44,7 +43,7 @@ class  App extends Component  {
           <h4 className="text-center my-3 pb-3 title">To Do App</h4>
           <AddItem addItem ={this.addItem }/>
           <TodoItems items ={this.state.items} deletItems={this.deletItems}/>
-          <T/>
+        
       </div>
     </div> 
   </div>

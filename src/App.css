@@ -1,12 +1,12 @@
 
 .app{
-    background: url("./../public/img/bg.jpg") ;
+    background-color: #020312;
     
    
     background-position: center ;
     
     background-repeat: no-repeat repeat-y;
-    height: 700px; 
+    max-height: 100vh;
 
     background-size: cover; 
 }
@@ -16,8 +16,4 @@
     background-clip: text;
     color: transparent;
     font-size: 50px;
-}
-.t{
-    background: url("./../public/img/bg.jpg") ;
-
 }
